@@ -1,0 +1,254 @@
+body {
+	/* background-image: url('pictures/background.jpg'); */
+	max-width: 1200px;
+	max-height: 800px;
+
+
+
+}
+
+
+
+
+
+.truckTrailer-section {
+	background-image: linear-gradient(rgba(27, 27, 27, 0.7), rgba(27, 27, 27, 0.7)), url('pictures/background.jpg');
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* display: flex; */
+	/* width: 1366px;
+	height: 884px; */
+	/* padding: 64px; */
+	/* gap: 24px; */
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/* left: 8px;
+  top: 8px; */
+
+
+
+
+
+}
+
+.truck-foursquares {
+	/* display: flex; */
+	/* max-width: 800px; */
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.background-image {
+	position: absolute;
+	width: 1844px;
+	height: 884px;
+	opacity: 100;
+	filter: brightness(5);
+	filter: brightness(.75);
+	
+
+
+}
+
+.truck-image {
+	width: 600px;
+	height: 238px;
+	border-radius: 12px;
+	/* padding: 32px 24px 32px 24px; */
+	gap: 22px;
+
+}
+
+.section-title {
+	color: rgb(255, 255, 255);
+	width: 1200px;
+	height: 80px;
+
+	font-family: Nunito Sans;
+	font-weight: 700;
+	font-size: 40.5px;
+	
+
+	text-align: center;
+	line-height: 125%;
+}
+
+/* For the yellow part in the title */
+.highlight {
+	color: rgba(255, 204, 0, 1);
+}
+
+
+
+.firstrow, .secondrow {
+	display: flex; /*to make sure that it doesnt rearange the order */
+	width: 100%;
+	justify-content: space-between;
+	height: hug 238px;
+
+
+	gap: 10px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	max-width: 100%;
+
+
+}
+
+
+.top-left, .top-right, .bottom-left, .bottom-right {
+	width: 500px;
+	height: 238px;
+	border-radius: 12px;
+	padding: 22px 5px 22px 16px;
+	margin-bottom: 20px;
+	margin: 5px;
+	/* gap: 22px; */
+}
+
+/* truck pictures added */
+.top-left {
+	background-image: url('pictures/doubledropdecktrailer.jpg');
+	background-size: cover;
+	filter: brightness(.75);
+}
+
+.top-right {
+	background-image: url('pictures/stepdecktrailer.jpg');
+	background-size: cover;
+	filter: brightness(.75);
+}
+
+.bottom-left {
+	background-image: url('pictures/removablegooseneck.jpg');
+	background-size: cover;
+	background-position: center;
+	filter: brightness(.75);
+}
+
+.bottom-right {
+	background-image: url('pictures/flatbedtrailer.jpg');
+	background-size: cover;
+	background-position: center down;
+	filter: brightness(.75);
+}
+
+/* Truck info */
+.truck-title {
+	color: rgb(255, 255, 255);
+	width: 559px;
+	height: 30px;
+
+	font-family: Nunito Sans;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 125%;
+	letter-spacing: 0%;
+	vertical-align: middle;
+}
+
+.dimension-title {
+	color: rgb(255, 204, 0, 1);
+	width: 559px;
+	height: 32px;
+
+	font-family: Nunito Sans;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 175%;
+	letter-spacing: 0%;
+	vertical-align: middle;
+
+}
+
+.dimension-info {
+	color: rgb(255, 255, 255);
+	width: 509px;
+	height: 32px;
+
+	font-family: Nunito Sans;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 175%;
+	letter-spacing: 0%;
+	vertical-align: middle;
+}
+
+.weight-title {
+	color: rgb(255, 204, 0, 1);
+	width: 559px;
+	height: 32px;
+
+	font-family: Nunito Sans;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 175%;
+	letter-spacing: 0%;
+	vertical-align: middle;
+
+}
+
+.weight-info {
+	color: rgb(255, 255, 255);
+	width: 559px;
+	height: 32px;
+
+	font-family: Nunito Sans;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 175%;
+	letter-spacing: 0%;
+	vertical-align: middle;
+
+}
+
+
+
+/* button */
+.exploreall-button {
+	background-color: rgb(255, 204, 0, 1);
+	color: rgb(0, 0, 0, 1);
+	display:flex;
+
+	width: 240px;
+	height: 50px;
+	border-radius: 100px;
+	cursor: pointer;
+
+	border: solid 2px;
+	border-color: rgb(255, 204, 0, 1);
+
+	/* padding: 16px 24px 16px 24px; */
+	gap: 12px;
+
+	font-family: Nunito Sans;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 18px;
+
+	text-align: center;
+	align-items: center;
+
+	vertical-align: center;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	left: 500px;
+
+
+}
+
+.exploreall-button:hover {
+	background-color: #ffd633;
+}
+
+.exploreall-button:active {
+	transition: .017s;
+}
