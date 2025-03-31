@@ -92,7 +92,7 @@ body {
 
 
 	gap: 10px;
-	margin-top: 0px;
+	margin-top: -2px;
 	margin-bottom: 0px;
 	margin-left: 50px;
 	margin-right: 50px;
@@ -106,7 +106,7 @@ body {
 	width: 500px;
 	height: 238px;
 	border-radius: 12px;
-	padding: 22px 5px 22px 16px;
+	padding: 2px 5px 22px 8px;
 	margin-bottom: 20px;
 	margin: 5px;
 	box-shadow: -3px 3px rgba(199, 199, 199, 1);
@@ -218,7 +218,7 @@ body {
 	display:flex;
 
 	width: 240px;
-	height: 50px;
+	height: 40px;
 	border-radius: 100px;
 	cursor: pointer;
 
@@ -240,7 +240,8 @@ body {
 	display: flex;
 	justify-content: center;
 	position: relative;
-	left: 500px;
+	left: 475px;
+	bottom: 20px;
 
 
 }
