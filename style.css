@@ -35,9 +35,8 @@ body {
 }
 
 .truck-foursquares {
-	/* display: flex; */
-	/* max-width: 800px; */
-	margin: 0;
+	height: 618px;
+	margin: 2px;
 	display: flex;
 	flex-wrap: wrap;
 	
@@ -67,11 +66,11 @@ body {
 .section-title {
 	color: rgb(255, 255, 255);
 	width: 1200px;
-	height: 80px;
+	height: 60px;
 
 	font-family: Nunito Sans;
 	font-weight: 700;
-	font-size: 40.5px;
+	font-size: 35.5px;
 	
 
 	text-align: center;
@@ -93,10 +92,10 @@ body {
 
 
 	gap: 10px;
-	margin-top: 5px;
+	margin-top: 0px;
 	margin-bottom: 0px;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
 	max-width: 100%;
 
 
@@ -110,6 +109,7 @@ body {
 	padding: 22px 5px 22px 16px;
 	margin-bottom: 20px;
 	margin: 5px;
+	box-shadow: -3px 3px rgba(199, 199, 199, 1);
 	/* gap: 22px; */
 }
 
